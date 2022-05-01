@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Slyle Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home |</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav__flex container">
+          <div class="nav__logo">
+            <a href="#"><img src="./asset/Logo.svg" alt="" /></a>
+          </div>
+          <div class="nav__menu">
+            <a class="nav__item" href=""><span class="active">El programa</span cl></a>
+            <a class="nav__item" href=""><span class="inactive">Inscripción</span></a>
+          </div>
+          <button><img src="./asset/movil-menu.svg" alt="" /></button>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="banner__content">
+          <div class="banner__caption">
+            <h1>Volamos para que tú puedas volar.</h1>
+            <h2>
+              Avianca Corporate organiza todo lo que necesitas para tu viaje.
+            </h2>
+            <button class="btn">Participa en la rifa</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="resevation">
+        <h3>Busca tu vuelo</h3>
+        <form class="reservation__form" action="">
+          <div class="reservation__options">
+            <div class="reservation__item">
+              <input name="estadia" id="1" type="radio" id="" checked />
+              <label class="label__option" for="1"> Ida y Regreso </label>
+            </div>
+            <div class="reservation__item">
+              <input name="estadia" id="2" type="radio"" id="" />
+              <label class="label__option" for="2"> Solo ida </label>
+            </div>
+            <div class="reservation__item">
+              <input name="estadia" id="3" type="radio"" id="" />
+              <label class="label__option" for="3"> Varias ciudades </label>
+            </div>
+          </div>
+          <div class="reservation__field">
+            <div class="reservation__destiny">
+              <div class="reservation__destiny-item">
+                <label class="label__input">Desde</label>
+                <input
+                  placeholder="Bogotá D.C. (BOG)"
+                  class="reservation__input"
+                  type="text"
+                />
+              </div>
+              <div class="reservation__destiny-item">
+                <button class="reservation__btn"></button>
+              </div>
+              <div class="reservation__destiny-item">
+                <label class="label__input">Destino</label>
+                <input
+                  placeholder="Dallas (DFW)"
+                  class="reservation__input"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="reservation__passenger">
+              <div class="reservation__destiny-item">
+                <label class="label__input">Pasajeros y Clase</label>
+                <select class="reservation__input" name="" id="">
+                  <option value="">1 adulto, económica.</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="reservation__field">
+            <div class="reservation__destiny-item">
+              <label class="label__input">Fecha de Salida</label>
+              <input
+                value="2022-03-16"
+                class="reservation__input"
+                type="date"
+              />
+            </div>
+            <div class="reservation__destiny-item">
+              <label class="label__input">Fecha de Regreso</label>
+              <input
+                value="2022-03-16"
+                class="reservation__input"
+                type="date"
+              />
+            </div>
+            <div class="reservation__destiny-item">
+              <a class="reservation__link" href=""
+                ><button class="reservation__icons-plus"></button
+                ><span class="linetext">Tengo un código promocional</span></a
+              >
+            </div>
+          </div>
+          <button class="btn">Busca tu vuelo</button>
+        </form>
+      </section>
+      <!-- end section reservation-->
+      <section class="recomendation">
+        <h3>Recomendaciones para ti</h3>
+        <h4 class="recomendation__link">
+          <a class="recomendation__link" href=""
+            ><span class="linetext">Configura tus recomendaciones</span>
+            <i class="arrow__link"></i>
+          </a>
+        </h4>
+        <div class="recomendation_cards">
+          <div class="recomendation__card">
+            <img src="./asset/001.png" alt="" />
+            <div class="recomendation__content">
+              <div class="recomendation_destiny">
+                <div class="recomendation__from">
+                  <h4>Bogota</h4>
+                  <p>Bog</p>
+                </div>
+                <i class="arrows__destiny"></i>
+                <div class="recomendation__to">
+                  <h4>New York</h4>
+                  <p>Jfk</p>
+                </div>
+              </div>
+              <div class="recomendation__price">
+                <p>Desde:</p>
+                <h5>$879, 890<span class="currency"> cop</span></h5>
+              </div>
+              <div class="recomendation__description">
+                <p>
+                  <i class="airplane"></i>Directo | Jun. 12 - Jun. 24 | 12 días
+                </p>
+              </div>
+              <button class="btn">Busca tu vuelo</button>
+            </div>
+          </div>
+          <!-- card end -->
+          <div class="recomendation__card">
+            <img src="./asset/002.png" alt="" />
+            <div class="recomendation__content">
+              <div class="recomendation_destiny">
+                <div class="recomendation__from">
+                  <h4>Bogota</h4>
+                  <p>Bog</p>
+                </div>
+                <i class="arrows__destiny"></i>
+                <div class="recomendation__to">
+                  <h4>Sao Pablo</h4>
+                  <p>gru</p>
+                </div>
+              </div>
+              <div class="recomendation__price">
+                <p>Desde:</p>
+                <h5>$929, 390<span class="currency"> cop</span></h5>
+              </div>
+              <div class="recomendation__description">
+                <p>
+                  <i class="airplane"></i>Escala | Jun. 12 - Jun. 24 | 12 días
+                </p>
+              </div>
+              <button class="btn">Busca tu vuelo</button>
+            </div>
+          </div>
+          <!-- card end -->
+          <div class="recomendation__card">
+            <img src="./asset/003.png" alt="" />
+            <div class="recomendation__content">
+              <div class="recomendation_destiny">
+                <div class="recomendation__from">
+                  <h4>Bogota</h4>
+                  <p>Bog</p>
+                </div>
+                <i class="arrows__destiny"></i>
+                <div class="recomendation__to">
+                  <h4>Santiago</h4>
+                  <p>scl</p>
+                </div>
+              </div>
+              <div class="recomendation__price">
+                <p>Desde:</p>
+                <h5>$799, 490<span class="currency"> cop</span></h5>
+              </div>
+              <div class="recomendation__description">
+                <p>
+                  <i class="airplane"></i>Directo | Jun. 12 - Jun. 24 | 12 días
+                </p>
+              </div>
+              <button class="btn">Busca tu vuelo</button>
+            </div>
+          </div>
+          <!-- card end -->
+        </div>
+      </section>
+      <!-- recomendation end -->
+      <section class="directAccess">
+        <div class="directAccess__content">
+          <h3>Accesos directos</h3>
+          <div class="directAccess__grid">
+            <div class="directAccess__card">
+              <div class="directAccess__icono"><i class="plane"></i></div>
+              <div class="directAccess__card-content">
+                <h4>Conozca sobre el programa</h4>
+                <p>
+                  Avianca Corporate ofrece beneficios y precios especiales para
+                  empresas con viajes frecuentes.
+                </p>
+
+                <a class="display" href=""
+                  ><span class="linetext">Más sobre el programa </span
+                  ><i class="arrow__link"></i
+                ></a>
+              </div>
+            </div>
+            <!-- end car direct access -->
+            <div class="directAccess__card">
+              <div class="directAccess__icono"><i class="lens"></i></div>
+              <div class="directAccess__card-content">
+                <h4>Cómo pertenecer al programa</h4>
+                <p>
+                  Conoce los requerimientos mínimos para que accedas a los
+                  beneficios que ofrece Avianca Corporate
+                </p>
+
+                <a class="display" href=""
+                  ><span class="linetext">Conoce más del programa </span
+                  ><i class="arrow__link"></i
+                ></a>
+              </div>
+            </div>
+            <!-- end car direct access -->
+            <div class="directAccess__card">
+              <div class="directAccess__icono"><i class="star"></i></div>
+              <div class="directAccess__card-content">
+                <h4>Obtenga su contraseña web</h4>
+                <p>
+                  Si aún no recibe su contraseña, o la olvidó, la puede
+                  solicitar de nuevo aquí.
+                </p>
+
+                <a class="display" href=""
+                  ><span class="linetext">Solicitar contraseña</span
+                  ><i class="arrow__link"></i
+                ></a>
+              </div>
+            </div>
+            <!-- end car direct access -->
+          </div>
+        </div>
+      </section>
+      <section class="yourCount">
+        <h3>Ten en cuenta</h3>
+        <div class="yourCount__grid">
+          <div class="yourCount__card">
+            <h4>Restricciones de Viajes</h4>
+            <p>
+              Revisa si tu destino tiene restricciones de viaje o exigencias de
+              Pruebas de Covid-19, que pueden impactar tu viaje.
+            </p>
+            <button>Conocer las restricciones de viajes</button>
+          </div>
+          <!-- end yourCount__card -->
+          <div class="yourCount__card">
+            <h4>Habla con un Ejecutivo Comercial</h4>
+            <p>
+              Si ya tienes tienes una Cuenta Corporativa, puedes hablar
+              directamente con nuestros Ejecutivos Comerciales.
+            </p>
+            <button>Conocer las restricciones de viajes</button>
+          </div>
+          <!-- end yourCount__card -->
+          <div class="yourCount__card">
+            <h4>Prueba PCR (Covid-19) incluida en tu tarifa</h4>
+            <p>
+              Si uno de los destinos a los que viajes exige una prueba PCR para
+              el Covid-19, nosotros te hacemos la vida más fácil. Nos aliamos
+              con SynLab para que viajes tranquilo, descubre todos los
+              beneficios que trae tu talla.
+            </p>
+            <button>Conoce los detalles de la Prueba PCR</button>
+          </div>
+        </div>
+      </section>
+      <!-- end section yourCount -->
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__grid-1">
+            <div class="footer__cardlink-info">
+              <h3>Avianca Corporate</h3>
+              <a href="">El programa Corporate</a><a href="">Inscripción</a
+              ><a href="">Otras soluciones empresariales</a
+              ><a href="">Direct Connect </a><a href="">Servicios de viaje</a
+              ><a href="">Cómo pertenecer al programa</a
+              ><a href="">Obtenga su contraseña web</a
+              ><a href="">Solicite su PIN</a>
+            </div>
+            <div class="footer__cardlink-info">
+              <h3>Conócenos</h3>
+              <a href="">Sobre nosotros</a><a href="">Contáctanos</a
+              ><a href="">Alianzas y beneficios</a><a href="">Direct Connect </a
+              ><a href="">Nuestra red de servicios</a
+              ><a href="">Relación con inversionistas</a
+              ><a href="">Mapa del Sitio</a><a href="">Avianca Express</a>
+            </div>
+            <div class="footer__cardlink-info">
+              <h3>Legales</h3>
+              <a href="">Términos y condiciones</a
+              ><a href="">Política de privacidad</a
+              ><a href="">Política de cookies</a
+              ><a href="">Cargos por servicios opcionales</a
+              ><a href="">Contrato de transporte</a
+              ><a href="">Plan de contingencia</a>
+            </div>
+          </div>
+          <!-- end grid footer 1 -->
+          <div class="footer__grid-2">
+            <h3>Siguenos</h3>
+            <div class="footer__networks">
+              <div class="footer__networks-icons">
+                <a href=""
+                  ><i class="twitter"></i>
+                  <p>Twitter</p></a
+                ><a href=""
+                  ><i class="facebook"></i>
+                  <p>Facebook</p></a
+                ><a href=""
+                  ><i class="youtube"></i>
+                  <p>Youtube</p></a
+                ><a href=""
+                  ><i class="instagram"></i>
+                  <p>Instagram</p></a
+                >
+              </div>
+              <div class="footer__avals">
+                <img src="./asset/candado.png" alt="" /><img
+                  src="./asset/vigilado.png"
+                  alt=""
+                /><img src="./asset/Aeronautica.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- end grid footer 2 -->
+          <div class="footer__grid-3">
+            <div class="footer__brand">
+              <img src="/asset/logo-avianca.png" alt="" /><img
+                src="./asset/Logo start alliance.png"
+                alt=""
+              />
+            </div>
+            <p>
+              Avianca S.A. - 2020 Copyright © Todos los derechos reservados. NIT
+              890.100.577-6. RNT 20175
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="./js/scripts.js"></script>
+</html>

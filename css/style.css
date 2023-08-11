@@ -617,7 +617,8 @@ select:-webkit-autofill:focus {
   max-width: 962px;
   height: fit-content;
 
-  margin: 8rem auto;
+  margin: 8rem auto 0 auto;
+  padding-bottom: 3rem;
 }
 .footer__grid-1 {
   display: grid;
